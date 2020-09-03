@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+}
+*:focus {
+  outline: none;
+}
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #00798c;
+}
+.container {
+  background: rgba(240, 240, 240, 0.45);
+  background: #c4c4c4;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px 20px rgba(75, 74, 74, 0.3);
+  position: relative;
+}
+
+.container .number {
+  --rotation: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* border: 2px dotted red; */
+  text-align: center;
+  font-size: 1.2em;
+  transform: rotate(var(--rotation));
+  padding: 5px;
+}
+.container .number1 {
+  --rotation: 30deg;
+}
+.container .number2 {
+  --rotation: 60deg;
+}
+.container .number3 {
+  --rotation: 90deg;
+}
+.container .number4 {
+  --rotation: 120deg;
+}
+.container .number5 {
+  --rotation: 150deg;
+}
+.container .number6 {
+  --rotation: 180deg;
+}
+.container .number7 {
+  --rotation: 210deg;
+}
+.container .number8 {
+  --rotation: 240deg;
+}
+.container .number9 {
+  --rotation: 270deg;
+}
+.container .number10 {
+  --rotation: 300deg;
+}
+.container .number11 {
+  --rotation: 330deg;
+}
+.container .number12 {
+  --rotation: 360deg;
+}
+
+.container .hand {
+  --rotation: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%) rotate(calc(var(--rotation) * 1deg));
+  transform-origin: bottom;
+  border-radius: 10px;
+}
+.second {
+  width: 2px;
+  height: 45%;
+  background-color: #d14657;
+}
+.minute {
+  width: 4px;
+  height: 40%;
+  background-color: rgba(0, 0, 0, 0.795);
+}
+.hour {
+  width: 7px;
+  height: 30%;
+  background-color: rgba(0, 0, 0, 0.795);
+}
+
+.minute_sign {
+  --rotation: 6deg;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* border: 2px dotted red; */
+  text-align: center;
+  font-size: 1.2em;
+  transform: rotate(var(--rotation));
+  padding: 5px;
+  color: #d14657;
+}
+.sign1 {
+  --rotation: 6deg;
+}
+.sign2 {
+  --rotation: 12deg;
+}
+.sign3 {
+  --rotation: 18deg;
+}
+.sign4 {
+  --rotation: 24deg;
+}
+
+.sign5 {
+  --rotation: 36deg;
+}
+.sign6 {
+  --rotation: 42deg;
+}
+.sign7 {
+  --rotation: 48deg;
+}
+.sign8 {
+  --rotation: 54deg;
+}
+
+.sign9 {
+  --rotation: 66deg;
+}
+.sign10 {
+  --rotation: 72deg;
+}
+.sign11 {
+  --rotation: 78deg;
+}
+.sign12 {
+  --rotation: 84deg;
+}
+
+.sign13 {
+  --rotation: 96deg;
+}
+.sign14 {
+  --rotation: 102deg;
+}
+.sign15 {
+  --rotation: 108deg;
+}
+.sign16 {
+  --rotation: 114deg;
+}
+
+.sign17 {
+  --rotation: 126deg;
+}
+.sign18 {
+  --rotation: 132deg;
+}
+.sign19 {
+  --rotation: 138deg;
+}
+.sign20 {
+  --rotation: 144deg;
+}
+
+.sign21 {
+  --rotation: 156deg;
+}
+.sign22 {
+  --rotation: 162deg;
+}
+.sign23 {
+  --rotation: 168deg;
+}
+.sign24 {
+  --rotation: 174deg;
+}
+
+.sign25 {
+  --rotation: 186deg;
+}
+.sign26 {
+  --rotation: 192deg;
+}
+.sign27 {
+  --rotation: 198deg;
+}
+.sign28 {
+  --rotation: 204deg;
+}
+
+.sign29 {
+  --rotation: 216deg;
+}
+.sign30 {
+  --rotation: 222deg;
+}
+.sign31 {
+  --rotation: 228deg;
+}
+.sign32 {
+  --rotation: 234deg;
+}
+
+.sign33 {
+  --rotation: 246deg;
+}
+.sign34 {
+  --rotation: 252deg;
+}
+.sign35 {
+  --rotation: 258deg;
+}
+.sign36 {
+  --rotation: 264deg;
+}
+
+.sign37 {
+  --rotation: 276deg;
+}
+.sign38 {
+  --rotation: 282deg;
+}
+.sign39 {
+  --rotation: 288deg;
+}
+.sign40 {
+  --rotation: 294deg;
+}
+
+.sign41 {
+  --rotation: 306deg;
+}
+.sign42 {
+  --rotation: 312deg;
+}
+.sign43 {
+  --rotation: 318deg;
+}
+.sign44 {
+  --rotation: 324deg;
+}
+
+.sign45 {
+  --rotation: 336deg;
+}
+.sign46 {
+  --rotation: 342deg;
+}
+.sign47 {
+  --rotation: 348deg;
+}
+.sign48 {
+  --rotation: 354deg;
+}
